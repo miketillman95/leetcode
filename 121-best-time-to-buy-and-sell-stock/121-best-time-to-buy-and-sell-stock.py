@@ -4,9 +4,9 @@ class Solution:
         max_prof = 0
         
         for price in prices:
-            print(price)
+            # print(price)
             min_price =min(min_price, price)
             max_prof = max(max_prof, price - min_price)
-            print('max', max_prof, 'min',min_price)
+            # print('max', max_prof, 'min',min_price)
             
         return max_prof
